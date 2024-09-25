@@ -1,0 +1,39 @@
+/**
+ * This file is accessible in other CSS files.
+ * This file contains "global variables" to be accessed by other CSS files.
+ */
+
+ /* Color Variables */
+:root {
+  --color1: #ECEAEA;
+  --color2: #0C0C0C;
+}
+
+/* Importing Fonts */
+@font-face {
+  font-family: "roboto";
+  src: url("../res/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "roboto-italic";
+  src: url("../res/fonts/Roboto/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: "roboto-bold";
+  src: url("../res/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+/* General Styling for Resetting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting "1rem" equivalent to "10px" and Scroll Behavior to "smooth" */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
